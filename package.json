@@ -1,0 +1,39 @@
+{
+  "name": "radio discord bot",
+  "version": "1.0.0",
+  "description": "Professional Discordjs Radio Bot",
+  "main": "index.js",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NICK-FURY-6023/Radio-discord-Bot-247.git"
+  },
+  "keywords": [
+    "radio",
+    "discordjs"
+  ],
+  "author": "NICK FURY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NICK-FURY-6023/Radio-discord-Bot-24/issues"
+  },
+  "homepage": "https://github.com/NICK-FURY-6023/Radio-discord-Bot-24#readme",
+  "dependencies": {
+    "@discordjs/voice": "^0.16.0",
+    "beta.db": "^3.0.2",
+    "discord.js": "^14.14.1",
+    "ffmpeg-static": "^4.4.1",
+    "fs": "^0.0.1-security",
+    "install": "^0.13.0",
+    "libsodium-wrappers": "^0.7.13",
+    "npm": "^10.2.4",
+    "opusscript": "^0.0.8",
+    "youtube-dl-exec": "^2.4.17",
+    "ytdl-core": "^4.11.5"
+  }
+}
