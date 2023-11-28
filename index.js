@@ -17,10 +17,22 @@ const radio = require(`./botconfig/radiostation.json`);
 
 client.once(Discord.Events.ClientReady, () => {
   console.log(`Logged in as ${client.user.tag}`);
-  client.user.setActivity("WWELCOME TO VAYU 247 MUSIC 🎶", {
-    type: Discord.ActivityType.Listening,
-  }); //You can change type to : LISTENING , COMPETING , PLAYING
+  updateActivity(); // Initial call to set the activity
+  setInterval(updateActivity, 4000); // Update the activity every 3 seconds
 });
+
+function updateActivity() {
+  const activities = [
+    "WWELCOME TO VAYU 247 RADIO STATION 📻",
+    "🎵 LISTENING TO MUSIC",
+    "🎵 LISTENING 24/7 VAYU RADIO",
+    "🔊 BROADCASTING NON-STOP TUNES",
+    "🎶 ALWAYS LIVE WITH MUSIC",
+    "📻 KEEPING THE BEATS ALIVE",
+    "🎧 JOIN US FOR CONTINUOUS MUSIC",
+    "🎙️ LIVE 24/7 WITH VAYU RADIO",
+    // Add more activities as needed
+  ];
 
 client.on(Discord.Events.MessageCreate, async (message) => {
   if (!message.content.startsWith(prefix) || message.author.bot) return;
