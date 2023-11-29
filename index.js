@@ -34,6 +34,11 @@ function updateActivity() {
     // Add more activities as needed
   ];
 
+  const randomActivity = activities[Math.floor(Math.random() * activities.length)];
+
+  client.user.setActivity(randomActivity, { type: Discord.ActivityType.Listening });
+}
+
 client.on(Discord.Events.MessageCreate, async (message) => {
   if (!message.content.startsWith(prefix) || message.author.bot) return;
   const args = message.content.slice(prefix.length).trim().split(" ");
