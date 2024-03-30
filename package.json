@@ -32,7 +32,7 @@
     "install": "^0.13.0",
     "libsodium-wrappers": "^0.7.13",
     "npm": "^10.2.4",
-    "opusscript": "^0.0.8",
+    "opusscript": "^0.1.1",
     "youtube-dl-exec": "^2.4.17",
     "ytdl-core": "^4.11.5"
   }
