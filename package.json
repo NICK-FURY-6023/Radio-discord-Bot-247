@@ -31,7 +31,7 @@
     "fs": "^0.0.1-security",
     "install": "^0.13.0",
     "libsodium-wrappers": "^0.7.13",
-    "npm": "^10.2.4",
+    "npm": "^11.0.0",
     "opusscript": "^0.1.1",
     "youtube-dl-exec": "^3.0.0",
     "ytdl-core": "^4.11.5"
