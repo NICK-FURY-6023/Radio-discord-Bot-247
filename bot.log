@@ -1,0 +1,109 @@
+2025-07-02 22:55:09,650 - __main__ - WARNING - Gemini AI not available. Install 'google-generativeai' for AI features.
+2025-07-02 22:55:09,652 - __main__ - INFO - Starting VAYU Radio Bot...
+2025-07-02 22:55:09,652 - discord.client - INFO - logging in using static token
+2025-07-02 22:55:11,373 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 78c6f29cbfdaccf1a87df0cfee37ccec).
+2025-07-02 22:56:11,126 - discord.app_commands.tree - ERROR - Ignoring exception in command 'radio'
+Traceback (most recent call last):
+  File "/workspaces/Radio-discord-Bot-247/.venv/lib/python3.12/site-packages/discord/app_commands/tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/workspaces/Radio-discord-Bot-247/.venv/lib/python3.12/site-packages/discord/app_commands/commands.py", line 882, in _invoke_with_namespace
+    transformed_values = await self._transform_arguments(interaction, namespace)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Radio-discord-Bot-247/.venv/lib/python3.12/site-packages/discord/app_commands/commands.py", line 846, in _transform_arguments
+    raise CommandSignatureMismatch(self) from None
+discord.app_commands.errors.CommandSignatureMismatch: The signature for command 'radio' is different from the one provided by Discord. This can happen because either your code is out of date or you have not synced the commands with Discord, causing the mismatch in data. It is recommended to sync the command tree to fix this issue.
+2025-07-02 22:56:46,304 - discord.client - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "/workspaces/Radio-discord-Bot-247/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/workspaces/Radio-discord-Bot-247/main.py", line 881, in on_command_error
+    stats['errors'] += 1
+    ~~~~~^^^^^^^^^^
+TypeError: 'Command' object is not subscriptable
+2025-07-02 22:57:18,631 - discord.voice_state - INFO - Connecting to voice...
+2025-07-02 22:57:18,631 - discord.voice_state - INFO - Starting voice handshake... (connection attempt 1)
+2025-07-02 22:57:19,153 - discord.voice_state - INFO - Voice handshake complete. Endpoint found: india10034.discord.media
+2025-07-02 22:57:19,251 - discord.voice_state - INFO - Voice connection complete.
+2025-07-02 22:57:20,519 - discord.client - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "/workspaces/Radio-discord-Bot-247/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/workspaces/Radio-discord-Bot-247/main.py", line 881, in on_command_error
+    stats['errors'] += 1
+    ~~~~~^^^^^^^^^^
+TypeError: 'Command' object is not subscriptable
+2025-07-02 22:58:08,765 - discord.client - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "/workspaces/Radio-discord-Bot-247/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/workspaces/Radio-discord-Bot-247/main.py", line 881, in on_command_error
+    stats['errors'] += 1
+    ~~~~~^^^^^^^^^^
+TypeError: 'Command' object is not subscriptable
+2025-07-02 22:59:02,432 - discord.client - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "/workspaces/Radio-discord-Bot-247/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/workspaces/Radio-discord-Bot-247/main.py", line 881, in on_command_error
+    stats['errors'] += 1
+    ~~~~~^^^^^^^^^^
+TypeError: 'Command' object is not subscriptable
+2025-07-02 22:59:15,316 - discord.voice_state - INFO - The voice handshake is being terminated for Channel ID 1386099104458997760 (Guild ID 761636010072735768)
+2025-07-02 22:59:15,320 - discord.player - INFO - ffmpeg process 284286 has not terminated. Waiting to terminate...
+2025-07-02 22:59:15,329 - discord.player - INFO - ffmpeg process 284286 should have terminated with a return code of -9.
+2025-07-02 23:00:00,316 - __main__ - INFO - Starting VAYU Radio Bot...
+2025-07-02 23:00:00,317 - discord.client - INFO - logging in using static token
+2025-07-02 23:00:02,203 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4172aa8eb179fd2257a669985bd41959).
+2025-07-02 23:01:18,136 - __main__ - INFO - Starting VAYU Radio Bot...
+2025-07-02 23:01:18,138 - discord.client - INFO - logging in using static token
+2025-07-02 23:01:20,025 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d18fc1dc94387148d050112d2bba0dcd).
+2025-07-02 23:01:38,043 - discord.client - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/workspaces/Radio-discord-Bot-247/main.py", line 881, in on_command_error
+    stats['errors'] += 1
+    ~~~~~^^^^^^^^^^
+TypeError: 'Command' object is not subscriptable
+2025-07-02 23:02:02,368 - discord.app_commands.tree - ERROR - Ignoring exception in command tree
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/discord/app_commands/tree.py", line 1151, in wrapper
+    await self._call(interaction)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/discord/app_commands/tree.py", line 1283, in _call
+    command, options = self._get_app_command_options(data)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/discord/app_commands/tree.py", line 1187, in _get_app_command_options
+    raise CommandNotFound(name, parents)
+discord.app_commands.errors.CommandNotFound: Application command 'help' not found
+2025-07-02 23:02:47,914 - discord.voice_state - INFO - Connecting to voice...
+2025-07-02 23:02:47,914 - discord.voice_state - INFO - Starting voice handshake... (connection attempt 1)
+2025-07-02 23:02:48,421 - discord.voice_state - INFO - Voice handshake complete. Endpoint found: india10034.discord.media
+2025-07-02 23:02:48,539 - discord.voice_state - INFO - Voice connection complete.
+2025-07-02 23:02:49,608 - discord.client - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/workspaces/Radio-discord-Bot-247/main.py", line 881, in on_command_error
+    stats['errors'] += 1
+    ~~~~~^^^^^^^^^^
+TypeError: 'Command' object is not subscriptable
+2025-07-02 23:06:37,204 - discord.client - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/workspaces/Radio-discord-Bot-247/main.py", line 881, in on_command_error
+    stats['errors'] += 1
+    ~~~~~^^^^^^^^^^
+TypeError: 'Command' object is not subscriptable
+2025-07-02 23:07:01,702 - discord.client - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/workspaces/Radio-discord-Bot-247/main.py", line 881, in on_command_error
+    stats['errors'] += 1
+    ~~~~~^^^^^^^^^^
+TypeError: 'Command' object is not subscriptable
+2025-07-02 23:07:41,267 - __main__ - ERROR - AI response error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-07-02 23:12:04,711 - discord.voice_state - INFO - The voice handshake is being terminated for Channel ID 1386099104458997760 (Guild ID 761636010072735768)
+2025-07-02 23:12:04,726 - discord.player - INFO - ffmpeg process 288048 has not terminated. Waiting to terminate...
+2025-07-02 23:12:04,735 - discord.player - INFO - ffmpeg process 288048 should have terminated with a return code of -9.
